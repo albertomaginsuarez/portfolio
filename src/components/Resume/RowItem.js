@@ -11,7 +11,7 @@ const RowItem = ({title,position,fecha,secciones}) => {
             </p>
             <ul>
             {secciones.map(elem =>{
-                return <li>{elem}</li>;
+                return <li key={elem}>{elem}</li>;
             })}
             </ul>          
             </div>
