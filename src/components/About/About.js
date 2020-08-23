@@ -10,7 +10,7 @@ const About = () => {
                 <div className="nine columns main-col">
                 <h2>Sobre mí</h2>
                 
-                    <ul>   
+                <ul>   
                     <li>- Me llamo Magin Suarez</li>    
                     <li>- Tengo 31 años</li>
                     <li>- Soy de Bahía Blanca, Pcia. Buenos Aires, Argentina</li>        
@@ -19,7 +19,7 @@ const About = () => {
                     <li>- Actualmente soy un programador Freelance</li> 
                     <li>- Amante de las tecnologías</li> 
                     <li>- Constantemente estoy adquiriendo nuevos conocimientos sobre nuevos lenguajes de programación</li>                    
-                    </ul>                 
+                </ul>                 
                 
                 <div className="row">
                     <div className="columns contact-details">

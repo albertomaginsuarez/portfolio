@@ -43,17 +43,17 @@ const Footer = () => {
                 </li>
             </ul>
             <ul className="copyright">
-                <li>© Copyright 2014 CeeVee</li>
+                <li>© Copyright 2020 Magin Suarez</li>
                 <li>
-                Design by{" "}
-                <a title="Styleshout" href="http://www.styleshout.com/">
-                    Styleshout
+                Diseñado por{" "}
+                <a title="Styleshout" href="#">
+                    Magin Suarez
                 </a>
                 </li>
             </ul>
             </div>
             <div id="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#home">
+            <a className="smoothscroll" title="Volver arriba" href="#home">
                 <i className="icon-up-open" />
             </a>
             </div>

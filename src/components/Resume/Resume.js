@@ -1,4 +1,5 @@
 import React from 'react'
+import RowItem from './RowItem';
 
 const Resume = () => {
     return (
@@ -25,29 +26,8 @@ const Resume = () => {
                     a principios del 2015 adquiri mi título.
                 </p>
                 </div>
-            </div>{" "}
-            {/*
-            <div className="row item">
-                <div className="twelve columns">
-                <h3>School of Cool Designers</h3>
-                <p className="info">
-                    B.A. Degree in Graphic Design <span>•</span>{" "}
-                    <em className="date">March 2003</em>
-                </p>
-                <p>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                    velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-                    auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-                    Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                    Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-                    ornare odio. Sed non mauris vitae erat
-                </p>
-                </div>
-            </div>{" "}
-            */}
-            {/* item end */}
-            </div>{" "}
-            {/* main-col end */}
+            </div>
+            </div>
         </div>
 
         <div className="row work">
@@ -56,45 +36,72 @@ const Resume = () => {
                 <span>Trabajo</span>
             </h1>
             </div>
-            <div className="nine columns main-col">
-            <div className="row item">
-                <div className="twelve columns">
-                <h3>Qualydat - Profertil S.A.</h3>
-                <p className="info">
-                    Sysadmin <span>•</span>{" "}
-                    <em className="date">Mayo de 2015 - Agosto de 2016</em>
-                </p>
-                <p>
-                    Me desempeñe como administrador de sistemas, manejo de servidores como Windows server,
-                    Linux.
-                </p>
-                </div>
-            </div>{" "}
-            {/* item end */}
-            <div className="row item">
-                <div className="twelve columns">
-                <h3>Super Cool Studio</h3>
-                <p className="info">
-                    UX Designer <span>•</span>{" "}
-                    <em className="date">March 2007 - February 2010</em>
-                </p>
-                <p>
-                    This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel
-                    velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
-                    auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.
-                    Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                    Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a
-                    ornare odio. Sed non mauris vitae erat
-                </p>
-                </div>
-            </div>{" "}
-            {/* item end */}
-            </div>{" "}
-            {/* main-col end */}
-        </div>{" "}
-        {/* End Work */}
-        {/* Skills
-        ----------------------------------------------- */}
+            <div className="nine columns main-col">   
+            <RowItem
+                title="Programador Freelance"
+                position="Fullstack developer"
+                fecha="Julio de 2020 - Actualidad"
+                secciones={[
+                    "- ReactJS",
+                    "- VueJS",
+                    "- NodeJS",
+                    "- MongoDB",
+                    "- PHP",
+                    "- Python",
+                    "- Laravel"                    
+                ]}
+            /> 
+            <RowItem
+                title="Cooperativa Obrera Ltda. de Consumo y Vivienda"
+                position="Fullstack Developer"
+                fecha="Agosto de 2017 - Junio de 2020"
+                secciones={[
+                    "- PHP",
+                    "- Python",
+                    "- Codeigniter",
+                    "- Web2Py",
+                    "- Bootstrap",
+                    "- Manejo de bases de datos MySQL",
+                    "- Trabajo en equipo"                    
+                ]}
+            />  
+            <RowItem
+                title="Casa Humberto Lucaioli S.A."
+                position="Fullstack Developer Web"
+                fecha="Enero de 2017 - Octubre de 2017"
+                secciones={[
+                    "- Programador Web Ecommerce",
+                    "- PHP",
+                    "- Codeigniter",
+                    "- Javascript",
+                    "- Bootstrap",
+                    "- Administrador de MySQL"                    
+                ]}
+            /> 
+            <RowItem
+                title="Jotafí S.A."
+                position="Oracle SQL Developer"
+                fecha="Septiembre de 2016 - Enero de 2017"
+                secciones={[
+                    "- SQL Developer"
+                ]}
+            />
+            <RowItem
+                title="Qualydat - Profertil S.A."
+                position="Sysadmin"
+                fecha="Mayo de 2015 - Agosto de 2016"
+                secciones={[
+                    "- Administración de servidores Linux",
+                    "- Administración de servidores Windows Server",
+                    "- Active Directory",
+                    "- Microsoft Exchange",
+                    "- SQL Server",
+                    "- Apache",
+                ]}
+            />                                                                                 
+            </div>
+        </div>
+
         <div className="row skill">
             <div className="three columns header-col">
             <h1>
@@ -102,39 +109,36 @@ const Resume = () => {
             </h1>
             </div>
             <div className="nine columns main-col">
-            <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
-                illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut
-                odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-                voluptatem sequi nesciunt.
-            </p>
+           
             <div className="bars">
                 <ul className="skills">
                 <li>
-                    <span className="bar-expand photoshop" />
-                    <em>Photoshop</em>
+                    <span className="bar-expand php" />
+                    <em>PHP</em>
                 </li>
                 <li>
-                    <span className="bar-expand illustrator" />
-                    <em>Illustrator</em>
+                    <span className="bar-expand react" />
+                    <em>ReactJS</em>
                 </li>
                 <li>
-                    <span className="bar-expand wordpress" />
-                    <em>Wordpress</em>
+                    <span className="bar-expand python" />
+                    <em>Python</em>
                 </li>
                 <li>
-                    <span className="bar-expand css" />
-                    <em>CSS</em>
+                    <span className="bar-expand mongo" />
+                    <em>MongoDB</em>
                 </li>
                 <li>
-                    <span className="bar-expand html5" />
-                    <em>HTML5</em>
+                    <span className="bar-expand node" />
+                    <em>NodeJS</em>
                 </li>
                 <li>
-                    <span className="bar-expand jquery" />
-                    <em>jQuery</em>
+                    <span className="bar-expand javascript" />
+                    <em>Javascript</em>
+                </li>
+                <li>
+                    <span className="bar-expand mysql" />
+                    <em>MySQL</em>
                 </li>
                 </ul>
             </div>

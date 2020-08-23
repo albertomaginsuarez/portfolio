@@ -1,0 +1,22 @@
+import React from 'react'
+
+const RowItem = ({title,position,fecha,secciones}) => {
+    return (
+        <div className="row item">
+            <div className="twelve columns">
+            <h3>{title}</h3>
+            <p className="info">
+                {position} <span>•</span>{" "}
+                <em className="date">{fecha}</em>
+            </p>
+            <ul>
+            {secciones.map(elem =>{
+                return <li>{elem}</li>;
+            })}
+            </ul>          
+            </div>
+        </div>
+    )
+}
+
+export default RowItem;
