@@ -5,11 +5,11 @@ const About = () => {
         <section id="about">
             <div className="row">
                 <div className="three columns">
-                <img className="profile-pic" src="images/yo.png" alt />
+                <img className="profile-pic" src="images/yo.png" alt="" />
                 </div>
                 <div className="nine columns main-col">
                 <h2>Sobre mí</h2>
-                <p>
+                
                     <ul>   
                     <li>- Me llamo Magin Suarez</li>    
                     <li>- Tengo 31 años</li>
@@ -20,7 +20,7 @@ const About = () => {
                     <li>- Amante de las tecnologías</li> 
                     <li>- Constantemente estoy adquiriendo nuevos conocimientos sobre nuevos lenguajes de programación</li>                    
                     </ul>                 
-                </p>
+                
                 <div className="row">
                     <div className="columns contact-details">
                     <h2>Contacto detalles</h2>

@@ -22,7 +22,7 @@ const ContactUs = () => {
         <div className="row">
             <div className="eight columns">
             {/* form */}
-            <form action method="post" id="contactForm" name="contactForm">
+            <form action="" method="post" id="contactForm" name="contactForm">
                 <fieldset>
                 <div>
                     <label htmlFor="contactName">
@@ -73,7 +73,7 @@ const ContactUs = () => {
                 <div>
                     <button className="submit">Submit</button>
                     <span id="image-loader">
-                    <img alt src="images/loader.gif" />
+                    <img src="images/loader.gif" />
                     </span>
                 </div>
                 </fieldset>
