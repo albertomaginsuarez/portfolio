@@ -7,7 +7,7 @@ const Header = () => {
                 <a className="mobile-btn" href="#nav-wrap" title="Mostrar">
                     Mostrar
                 </a>
-                <a className="mobile-btn" href="#" title="Ocultar">
+                <a className="mobile-btn" href="" title="Ocultar">
                     Ocultar
                 </a>
                 <ul id="nav" className="nav">

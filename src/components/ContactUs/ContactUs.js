@@ -69,7 +69,7 @@ const ContactUs = () => {
                 <div>
                     <button className="submit">Enviar mensaje</button>
                     <span id="image-loader">
-                    <img src="images/loader.gif" />
+                    <img src="images/loader.gif" alt=""/>
                     </span>
                 </div>
                 </fieldset>
