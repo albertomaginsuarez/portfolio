@@ -10,7 +10,7 @@ const Portfolio = () => {
                     <div className="columns portfolio-item">
                         <div className="item-wrap">
                             <a href="#modal-01" title="">
-                            <img src="portfolio/images/portfolio/logo.png" alt="" />                            
+                            <img src="images/portfolio/logo.png" alt="" />                            
                             <div className="overlay">
                                 <div className="portfolio-item-meta">
                                 <h5>KingstorePS4</h5>
@@ -30,7 +30,7 @@ const Portfolio = () => {
             <div id="modal-01" className="popup-modal mfp-hide">
                 <img
                     className="scale-with-grid"
-                    src="portfolio/images/portfolio/modals/m-logo.png"                
+                    src="images/portfolio/modals/m-logo.png"                
                 />
                 <div className="description-box">
                     <h4>KingstorePS4</h4>

@@ -5,7 +5,7 @@ const About = () => {
         <section id="about">
             <div className="row">
                 <div className="three columns">
-                    <img className="profile-pic" src="portfolio/images/yo.png" alt="" />
+                    <img className="profile-pic" src="images/yo.png" alt="" />
                 </div>
                 <div className="nine columns main-col">
                 <h2>Sobre mí</h2>
