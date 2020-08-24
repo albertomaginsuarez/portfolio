@@ -10,21 +10,21 @@ const Portfolio = () => {
                 <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
                     <Job
                         href="modal-01" 
-                        src="images/portfolio/logo.png"
+                        src="portfolio/images/portfolio/logo.png"
                         h5="KingstorePS4"
                         p="Ecommerce"
                         descripcion="Página web Ecommerce dedicada a la venta de juegos virtuales"
                         link="https://kingstoreps4.herokuapp.com"
-                        href_m="images/portfolio/modals/m-logo.png"
+                        href_m="portfolio/images/portfolio/modals/m-logo.png"
                     />
                     <Job
                         href="modal-02" 
-                        src="images/portfolio/abogada.jpeg"
+                        src="portfolio/images/portfolio/abogada.jpeg"
                         h5="BraszkaMerkel"
                         p="Portfolio de Abogadas"
                         descripcion="Estudio Jurídico de Maria Braszka y Romina Merkel "
                         link="https://portfolio-bice-two.now.sh/bra_mer"
-                        href_m="images/portfolio/modals/m-abogada.jpeg"
+                        href_m="portfolio/images/portfolio/modals/m-abogada.jpeg"
                     />                                                                                     
                 </div>
             </div>

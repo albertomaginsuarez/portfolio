@@ -1,35 +1,63 @@
-import React from 'react'
+import React, {useState} from 'react';
 
+import { useForm } from '../../hooks/useForm';
+import emailjs from 'emailjs-com';
 const ContactUs = () => {
+    const API_PATH = 'http://localhost:3000/inc/sendEmail.php';
+    
+    const [show, setShow] = useState(false);
+    const [ formValues, handleInputChange ] = useForm({
+        nombre: '',
+        email: '',
+        subject: '',
+        mensaje: ''
+    });
+
+    const { nombre, email, subject, mensaje } = formValues;    
+
+    const handleFormSubmit  = (event) => {
+        
+        event.preventDefault();
+        console.log(formValues); 
+        emailjs.send('default_service','template_WWPJEKCP', formValues, 'user_Dv3N4jiVHrKdgVvcF5u7h')
+		.then((response) => {
+            setShow(true);
+            setTimeout(() => {
+                setShow(false);
+            }, 2000);				  
+		}, (err) => {
+				   console.log('FAILED...', err);
+		});
+    }
+
     return (
         <section id="contact">
         <div className="row section-head">
             <div className="two columns header-col">
             <h1>
-                <span>Contacto.</span>
+                <span>Envíame un mensaje!</span>
             </h1>
             </div>
             <div className="ten columns">
             <p className="lead">
-                Contacto.
+                Contacto
             </p>
             </div>
         </div>
         <div className="row">
             <div className="eight columns">
             
-            <form action="" method="post" id="contactForm" name="contactForm">
+            <form action="#">
                 <fieldset>
                 <div>
                     <label htmlFor="contactName">
                     Nombre <span className="required">*</span>
                     </label>
                     <input
-                        type="text"
-                        defaultValue=""
-                        size={35}
-                        id="contactName"
-                        name="contactName"
+                        type="text"                                         
+                        name="nombre"
+                        placeholder=""
+                        onChange={ handleInputChange }
                     />
                 </div>
                 <div>
@@ -37,21 +65,19 @@ const ContactUs = () => {
                     Email <span className="required">*</span>
                     </label>
                     <input
-                    type="text"
-                    defaultValue=""
-                    size={35}
-                    id="contactEmail"
-                    name="contactEmail"
+                        type="text"
+                        placeholder=""        
+                        name="email"
+                        onChange={ handleInputChange }
                     />
                 </div>
                 <div>
                     <label htmlFor="contactSubject">Subject</label>
                     <input
-                    type="text"
-                    defaultValue=""
-                    size={35}
-                    id="contactSubject"
-                    name="contactSubject"
+                        type="text"
+                        placeholder=""                   
+                        name="subject"
+                        onChange={ handleInputChange }
                     />
                 </div>
                 <div>
@@ -59,18 +85,21 @@ const ContactUs = () => {
                     Mensaje <span className="required">*</span>
                     </label>
                     <textarea
-                    cols={50}
-                    rows={15}
-                    id="contactMessage"
-                    name="contactMessage"
-                    defaultValue=""
+                        placeholder=""                         
+                        name="mensaje"
+                        defaultValue=""
+                        onChange={ handleInputChange }
                     />
                 </div>
                 <div>
-                    <button className="submit">Enviar mensaje</button>
-                    <span id="image-loader">
-                    <img src="images/loader.gif" alt=""/>
-                    </span>
+                    <button type='submit' className="submit" onClick={e => handleFormSubmit(e)}>Enviar mensaje</button>                    
+                    {
+                        show &&
+                        <span id="image-loader"> 
+                            <img src="portfolio/images/loader.gif" alt=""/>
+                        </span>
+                    }
+                    
                 </div>
                 </fieldset>
             </form>

@@ -261,7 +261,7 @@ ul#nav li.current a { color: #F06000; }
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
-.education, .work {
+.education, .work, .certificaciones {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
@@ -801,7 +801,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #2b2b2b;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -906,8 +906,7 @@ call-to-action .button {
 #message-success i {
    margin-right: 10px;
 }
-#image-loader {
-   display: none;
+#image-loader {   
    position: relative;
    left: 18px;
    top: 17px;

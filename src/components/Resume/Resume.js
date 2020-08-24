@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import RowItem from './RowItem';
+import Certification from './Certification';
 
 const Resume = () => {
     return (
@@ -21,9 +22,9 @@ const Resume = () => {
                     <em className="date">17 de Abril del 2015</em>
                 </p>
                 <p>
-                    La Universidad Nacional del Sur, usualmente referida por sus siglas, «UNS», es una universidad pública argentina con sede central en Bahía Blanca, al sur de la Provincia de Buenos Aires.
-                    Comence mis estudios en el año 2007, me gradue de la carrera de Ingeniería en Sistemas de Computación y
-                    a principios del 2015 adquiri mi título.
+                    Comence mis estudios en el año 2007, 
+                    me gradue de la carrera de Ingeniería en Sistemas de Computación y
+                    a principios del 2015 adquiri mi título como ingeniero.
                 </p>
                 </div>
             </div>
@@ -93,58 +94,84 @@ const Resume = () => {
                 secciones={[
                     "- Administración de servidores Linux",
                     "- Administración de servidores Windows Server",
-                    "- Active Directory",
-                    "- Microsoft Exchange",
-                    "- SQL Server",
+                    "- MySQL",                                        
                     "- Apache",
                 ]}
             />                                                                                 
             </div>
         </div>
 
+        <div className="row certificaciones">
+            <div className="three columns header-col">
+                <h1>
+                    <span>Certificaciones</span>
+                </h1>
+            </div>
+            <div className="nine columns main-col">
+                <Certification 
+                    title="CSS FlexBox Layout - Inicial"
+                    fecha="Febrero de 2020"
+                    sitio="Udemy"
+                />
+                <Certification 
+                    title="React.JS - Inicial"
+                    fecha="Diciembre de 2019"
+                    sitio="Udemy"
+                />   
+                <Certification 
+                    title="Angular 8 - Desde cero hasta profesional"
+                    fecha="Febrero de 2020"
+                    sitio="Udemy"
+                />
+                <Certification 
+                    title="Programación .NET - MVC"
+                    sitio="Hexacta"
+                    fecha="2015"
+                />
+            </div>
+        </div>
+
         <div className="row skill">
             <div className="three columns header-col">
-            <h1>
-                <span>Skills</span>
-            </h1>
+                <h1>
+                    <span>Skills</span>
+                </h1>
             </div>
             <div className="nine columns main-col">
            
-            <div className="bars">
-                <ul className="skills">
-                <li>
-                    <span className="bar-expand php" />
-                    <em>PHP</em>
-                </li>
-                <li>
-                    <span className="bar-expand react" />
-                    <em>ReactJS</em>
-                </li>
-                <li>
-                    <span className="bar-expand python" />
-                    <em>Python</em>
-                </li>
-                <li>
-                    <span className="bar-expand mongo" />
-                    <em>MongoDB</em>
-                </li>
-                <li>
-                    <span className="bar-expand node" />
-                    <em>NodeJS</em>
-                </li>
-                <li>
-                    <span className="bar-expand javascript" />
-                    <em>Javascript</em>
-                </li>
-                <li>
-                    <span className="bar-expand mysql" />
-                    <em>MySQL</em>
-                </li>
-                </ul>
+                <div className="bars">
+                    <ul className="skills">
+                    <li>
+                        <span className="bar-expand php" />
+                        <em>PHP</em>
+                    </li>
+                    <li>
+                        <span className="bar-expand react" />
+                        <em>ReactJS</em>
+                    </li>
+                    <li>
+                        <span className="bar-expand python" />
+                        <em>Python</em>
+                    </li>
+                    <li>
+                        <span className="bar-expand mongo" />
+                        <em>MongoDB</em>
+                    </li>
+                    <li>
+                        <span className="bar-expand node" />
+                        <em>NodeJS</em>
+                    </li>
+                    <li>
+                        <span className="bar-expand javascript" />
+                        <em>Javascript</em>
+                    </li>
+                    <li>
+                        <span className="bar-expand mysql" />
+                        <em>MySQL</em>
+                    </li>
+                    </ul>
+                </div>            
             </div>
-            {/* end skill-bars */}
-            </div>{" "}
-            {/* main-col end */}
         </div>
 
         </section>
