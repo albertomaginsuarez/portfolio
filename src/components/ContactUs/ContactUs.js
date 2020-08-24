@@ -96,7 +96,7 @@ const ContactUs = () => {
                     {
                         show &&
                         <span id="image-loader"> 
-                            <img src="portfolio/images/loader.gif" alt=""/>
+                            <img src="images/loader.gif" alt=""/>
                         </span>
                     }
                     
