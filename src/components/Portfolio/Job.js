@@ -1,8 +1,9 @@
 import React from 'react'
 
 const Job = ({href,src,h5,p,descripcion,link,href_m}) => {
+
     return (
-        <div className="columns portfolio-item">
+        <div className="columns portfolio-item animate__animated animate__bounce">
             <div className="item-wrap">
                 <a href={`${"#"+href}`} title="">
                 <img src={src} alt="" />                            
@@ -31,7 +32,7 @@ const Job = ({href,src,h5,p,descripcion,link,href_m}) => {
                     </span>
                 </div>
                 <div className="link-box">
-                    <a href="{link}" target="_blank">Detalles</a>
+                    <a href={link} target="_blank">Detalles</a>
                     <a className="popup-modal-dismiss">Cerrar</a>
                 </div>
             </div>

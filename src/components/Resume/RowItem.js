@@ -2,7 +2,7 @@ import React from 'react'
 
 const RowItem = ({title,position,fecha,secciones}) => {
     return (
-        <div className="row item">
+        <div className="row item animate__animated animate__backInLeft">
             <div className="twelve columns">
             <h3>{title}</h3>
             <p className="info">

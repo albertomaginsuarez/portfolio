@@ -47,7 +47,7 @@ const Header = () => {
             {/* end #nav-wrap */}
             <div className="row banner">
                 <div className="banner-text">
-                <h1 className="responsive-headline">Soy Magin Suarez.</h1>
+                <h1 className="responsive-headline animate__animated animate__bounce">Soy Magin Suarez.</h1>
                 <h3>
                     Soy un <span>ingeniero en sistemas</span>,{" "}
                     <span>programador</span> web, actualmente trabajo de forma independiente, de forma <span>freelance</span>,{" "}
