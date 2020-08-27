@@ -16,7 +16,7 @@ const Testimonials = () => {
                     <li>
                     <blockquote>
                         <p>
-                        Estamos muy conformes por el trabajo realizado por parte de Magin, quedamos muy satisfechas porque nos supo entender a la perfección el estilo de la pagina web que queriamos realizar. Ademas siempre estuvo disponible para evacuar todas nuestras consultas, actuando siempre de manera muy profesional. Muy recomendable.
+                        Estamos muy conformes por el trabajo realizado por parte de Magin, quedamos muy satisfechas porque nos supo entender a la perfección el estilo de la página web que queríamos realizar. Además siempre estuvo disponible para evacuar todas nuestras consultas, actuando siempre de manera muy profesional. Muy recomendable.
                         </p>
                         <cite>Braszka Maria</cite>
                     </blockquote>
