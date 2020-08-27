@@ -3,7 +3,7 @@ const Header = () => {
     return (
 
         <header id="home">
-            <nav id="nav-wrap">
+            <nav id="nav-wrap" class="animate__animated animate__fadeInDownBig">
                 <a className="mobile-btn" href="#nav-wrap" title="Mostrar">
                     Mostrar
                 </a>
@@ -48,7 +48,7 @@ const Header = () => {
             <div className="row banner">
                 <div className="banner-text">
                 <h1 className="responsive-headline animate__animated animate__bounce">Soy Magin Suarez.</h1>
-                <h3>
+                <h3 className="animate__animated animate__fadeInLeft">
                     Soy un <span>ingeniero en sistemas</span>,{" "}
                     <span>programador</span> web, actualmente trabajo de forma independiente, de forma <span>freelance</span>,{" "}
                     amante de las tecnologías, para ver más detallado mi portfolio{" "} 
@@ -62,7 +62,7 @@ const Header = () => {
                     .
                 </h3>
                 <hr />
-                <ul className="social">
+                <ul className="social animate__animated animate__jackInTheBox">
                     <li>
                     <a href="https://www.facebook.com/amaginsuarez" target="_blank">
                         <i className="fa fa-facebook" />
