@@ -3,7 +3,7 @@ const Header = () => {
     return (
 
         <header id="home">
-            <nav id="nav-wrap" class="animate__animated animate__fadeInDownBig">
+            <nav id="nav-wrap" className="animate__animated animate__fadeInDownBig">
                 <a className="mobile-btn" href="#nav-wrap" title="Mostrar">
                     Mostrar
                 </a>

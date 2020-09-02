@@ -1,11 +1,11 @@
 import React from 'react';
 
-const About = () => {
+const About = () => {    
     return (
         <section id="about">
             <div className="row">
                 <div className="three columns">
-                    <img className="profile-pic" src="images/yo.png" alt="" />
+                    <img className="profile-esp" alt="" />
                 </div>
                 <div className="nine columns main-col">
                     <h2>Sobre mí</h2>

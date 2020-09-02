@@ -1,15 +1,15 @@
 import React from 'react'
 
-const Certification = ({title,sitio,fecha}) => {
+const Certification = ({title,sitio,fecha,index}) => {
     return (
         
-        <div className="row item">
+        <div className="row item">            
             <div className="twelve columns">
-                <h3>{title}</h3>
+                <h3>{title}</h3>                              
                 <p className="info">
                     {sitio} <span>•</span>
                     <em className="date">{fecha}</em>
-                </p>
+                </p>                
             </div>
         </div>
             
