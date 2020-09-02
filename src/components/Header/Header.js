@@ -45,12 +45,15 @@ const Header = () => {
                 {/* end #nav */}
             </nav>{" "}
             {/* end #nav-wrap */}
+            <div className="bg">
+
+            </div>
             <div className="row banner">
                 <div className="banner-text">
-                <h1 className="responsive-headline animate__animated animate__bounce">Soy Magin Suarez.</h1>
+                <h1 className="responsive-headline animate__animated animate__bounce ing">Soy Magin Suarez.</h1>
                 <h3 className="animate__animated animate__fadeInLeft">
-                    Soy un <span>ingeniero en sistemas</span>,{" "}
-                    <span>programador</span> web, actualmente trabajo de forma independiente, de forma <span>freelance</span>,{" "}
+                    Soy un <span className="ing">ingeniero en sistemas</span>,{" "}
+                    <span className="ing">programador</span> web, actualmente trabajo de forma independiente, de forma <span className="ing">freelance</span>,{" "}
                     amante de las tecnologías, para ver más detallado mi portfolio{" "} 
                     <a className="smoothscroll" href="#about">
                     comienza ahora
