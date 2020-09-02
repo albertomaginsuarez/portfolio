@@ -5,7 +5,7 @@ const About = () => {
         <section id="about">
             <div className="row">
                 <div className="three columns">
-                    <img className="profile-esp" alt="" />
+                    <img className="profile-esp" src="images/yo.png" alt="" />
                 </div>
                 <div className="nine columns main-col">
                     <h2>Sobre mí</h2>
@@ -27,7 +27,7 @@ const About = () => {
                             <span>Magin Suarez</span>
                             <br />
                             <span>
-                            Bahía Blanca, Buenos Aires
+                            Bahía Blanca, Buenos Aireshref_m="images/portfolio/modals/m-logo.png"
                             <br />
                             Argentina
                             </span>

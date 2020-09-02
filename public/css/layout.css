@@ -34,8 +34,7 @@ body { background: #0f0f0f; }
    height: 150px;
    border-radius: 100%;
    border: solid 5px #FFFFFF;
-   background-position: top center;
-   background-image: url(../images/yo.png);
+   background-position: top center;   
    background-size: cover;
 }
 
