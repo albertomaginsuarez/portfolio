@@ -27,7 +27,7 @@ const About = () => {
                             <span>Magin Suarez</span>
                             <br />
                             <span>
-                            Bahía Blanca, Buenos Aireshref_m="images/portfolio/modals/m-logo.png"
+                            Bahía Blanca, Buenos Aires
                             <br />
                             Argentina
                             </span>
