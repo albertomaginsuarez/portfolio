@@ -163,6 +163,10 @@ const Resume = () => {
                     </li>
                     <li>
                         <span className="bar-expand react" />
+                        <em>React Native</em>
+                    </li>
+                    <li>
+                        <span className="bar-expand react" />
                         <em>ReactJS</em>
                     </li>
                     <li>
