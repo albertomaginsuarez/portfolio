@@ -109,26 +109,32 @@ const Resume = () => {
             </div>
             <div className="nine columns main-col">
                 <Certification 
-                    title="React Avanzado (Hooks - MERN)"
-                    fecha="Septiembre de 2020"
+                    title="React Native Expo - App para Android y ios"
+                    fecha="Octubre 2020"
                     sitio="Udemy"
-                    index="modal-010"
+                    index="6U"
+                />
+                <Certification 
+                    title="React Avanzado (Hooks - MERN)"
+                    fecha="Septiembre 2020"
+                    sitio="Udemy"
+                    index="7U"
                 />
                 <Certification 
                     title="CSS FlexBox Layout - Inicial"
-                    fecha="Febrero de 2020"
+                    fecha="Febrero 2020"
                     sitio="Udemy"
                     index="2U"
                 />
                 <Certification 
                     title="React.JS - Inicial"
-                    fecha="Diciembre de 2019"
+                    fecha="Diciembre 2019"
                     sitio="Udemy"
                     index="3U"
                 />   
                 <Certification 
                     title="Angular 8 - Desde cero hasta profesional"
-                    fecha="Febrero de 2020"
+                    fecha="Febrero 2020"
                     sitio="Udemy"
                     index="4U"
                 />
